@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>chat-app</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="js/chat.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="user_cont">
+            <label for="nickname">닉네임</label>
+            <input type="text" id="nickname">
+        </div>
+
+        <div class="display_cont">
+            <ul class="chat_list">
+              
+            </ul>
+
+        </div>
+
+        <div class="input_cont">
+            <span>
+                <input type="text" class="chat_input">
+                <button class="send_btn">send</button>
+            </span>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
